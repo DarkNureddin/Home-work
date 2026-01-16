@@ -47,6 +47,7 @@ a {
   text-align: center;
   background-color:transparent;
   cursor: pointer;
+  margin-top: 30px;
 }
 .main {
   font-size: 24px;
@@ -71,6 +72,7 @@ a {
 
 .main-button {
 text-align: center;
+margin-bottom: 40px;
 }
 
 .new-header {
@@ -89,6 +91,7 @@ text-align: center;
 .features-container {
 color: white;
 text-align: center;
+margin-bottom: 30px;
 
 
 }
@@ -108,8 +111,8 @@ text-align: center;
     overflow: hidden;
     margin: 20px;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
+    flex-direction: row;
     align-items: center;
     text-align: center;
 }
@@ -128,12 +131,13 @@ text-align: center;
 }
 
 .card button {
-    display: block;
-    width: 100%;
+    display:flexbox;
+    justify-content:center;
+    width: 50%;
     padding: 10px;
     background-color: #007bff;
     color: #fff;
-    border: none;
+    border:hidden ;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
@@ -146,6 +150,61 @@ text-align: center;
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin-top: 20px;
+}
+
+
+
+.Contents-container {
+  text-align: center;
+
+}
+
+.Gallery {
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   margin-bottom: 30px;
+  
+
+}
+
+.h4{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 30px; 
+  justify-content: center;
+  
+     
+}
+
+.Partners {
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   margin-bottom: 90px;
+  
+
+}
+
+.h5{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.Logos {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 35px; 
+  justify-content: center;
+  margin-bottom: 30px;
+  object-fit: none;
+
 }
